@@ -118,7 +118,6 @@ alias n="npm -g outdated"
 
 ## zsh
 alias l="ls -laF"
-alias a="&&"
 
 ## git
 # git develop and master
