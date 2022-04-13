@@ -107,24 +107,3 @@ export EDITOR="/usr/local/bin/mate -w"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
-
-#### aliases
-## daily housekeeping
-# brew and mackup
-alias bm="brew update --verbose && brew upgrade --verbose && brew cleanup --verbose --prune=all && mackup backup --verbose && cd ~/dev/utils/mackup-backups"
-
-alias n="npm -g outdated"
-
-## zsh
-alias l="ls -laF"
-
-## git
-# git develop and master
-alias gdm="git push && git checkout master && git merge develop && git push && git checkout develop"
-
-alias gs="git status"
-alias ga.="git add ."
-alias gp="git push"
-
-# vscode-insiders
-alias c.="code-insiders ."
