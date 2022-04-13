@@ -138,12 +138,19 @@ alias nrd="npm run dev"
 alias nrw="npm run watch"
 
 ## theme kit
+# deploy and watch
 alias tcom="theme deploy --env=com_prod && theme watch --env=com_prod"
 alias tcomd="theme deploy --env=com_dev && theme watch --env=com_dev"
 alias tca="theme deploy --env=ca_prod && theme watch --env=ca_prod"
 alias tcad="theme deploy --env=ca_dev && theme watch --env=ca_dev"
+# open
+alias tocom="theme open --env=com_prod"
+alias tocomd="theme open --env=com_dev"
+alias toca="theme open --env=ca_prod"
+alias tocad="theme open --env=ca_dev"
 
 # vscode-insiders
+alias c="code-insiders"
 alias c.="code-insiders ."
 
 ## zsh
