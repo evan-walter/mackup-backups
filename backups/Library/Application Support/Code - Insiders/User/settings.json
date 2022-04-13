@@ -1,0 +1,36 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vetur.format.options.tabSize": 4,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.semi": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.lineHeight": 1.7,
+  "prettier.tabWidth": 4,
+  "zenMode.hideTabs": false,
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"window.zoomLevel": 1,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.newWindowDimensions": "maximized",
+  "workbench.colorTheme": "Community Material Theme Ocean Customized"
+}
