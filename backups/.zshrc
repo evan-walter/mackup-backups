@@ -113,7 +113,8 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # brew and mackup
 alias bm="brew update --verbose && brew upgrade --verbose && brew cleanup --verbose --prune=all && mackup backup --verbose && cd ~/dev/utils/mackup-backups"
 alias b="brew update --verbose && brew upgrade --verbose && brew cleanup --verbose --prune=all"
-alias m="mackup backup --verbose && cd ~/dev/utils/mackup-backups"
+alias mb="mackup backup --verbose && cd ~/dev/utils/mackup-backups"
+alias mr="mackup restore --verbose && cd ~/dev/utils/mackup-backups"
 alias n="npm -g outdated"
 
 ## zsh
