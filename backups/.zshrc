@@ -124,8 +124,9 @@ alias gdm="git push && git checkout master && git merge develop && git push && g
 alias g="git"
 alias gs="git status"
 alias ga="git add"
-alias ga.="git add ."
+alias gad="git add ."
 alias gc="git commit"
+alias gcm="git commit -m"
 alias gp="git push"
 # other
 alias gd="git diff"
