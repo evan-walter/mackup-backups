@@ -148,6 +148,11 @@ alias tocom="theme open --env=com_prod"
 alias tocomd="theme open --env=com_dev"
 alias toca="theme open --env=ca_prod"
 alias tocad="theme open --env=ca_dev"
+# open, deploy, and watch
+alias totcom="theme open --env=com_prod && theme deploy --env=com_prod && theme watch --env=com_prod"
+alias totcomd="theme open --env=com_dev && theme deploy --env=com_dev && theme watch --env=com_dev"
+alias totca="theme open --env=ca_prod && theme deploy --env=ca_prod && theme watch --env=ca_prod"
+alias totcad="theme open --env=ca_dev && theme deploy --env=ca_dev && theme watch --env=ca_dev"
 
 # vscode-insiders
 alias c="code-insiders"
