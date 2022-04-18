@@ -1,7 +1,8 @@
 #### aliases
 ## daily housekeeping
 # brew and mackup
-alias bm="brew update --verbose && brew upgrade --verbose && brew cleanup --verbose --prune=all && mackup backup --verbose && cd ~/dev/utils/mackup-backups"
+alias bmb="brew update --verbose && brew upgrade --verbose && brew cleanup --verbose --prune=all && mackup backup --verbose && cd ~/dev/utils/mackup-backups"
+alias bmr="brew update --verbose && brew upgrade --verbose && brew cleanup --verbose --prune=all && mackup restore --verbose && cd ~/dev/utils/mackup-backups"
 alias b="brew update --verbose && brew upgrade --verbose && brew cleanup --verbose --prune=all"
 alias mb="mackup backup --verbose && cd ~/dev/utils/mackup-backups"
 alias mr="mackup restore --verbose && cd ~/dev/utils/mackup-backups"
