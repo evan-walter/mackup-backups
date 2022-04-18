@@ -27,10 +27,10 @@
   "[less]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
 },
-"window.zoomLevel": 1,
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "window.newWindowDimensions": "maximized",
-  "workbench.colorTheme": "Community Material Theme Ocean Customized"
+  "workbench.colorTheme": "Community Material Theme Ocean Customized",
+  "window.zoomLevel": 1
 }
