@@ -35,6 +35,11 @@ alias tdcom="theme deploy --env=com_prod"
 alias tdcomd="theme deploy --env=com_dev"
 alias tdca="theme deploy --env=ca_prod"
 alias tdcad="theme deploy --env=ca_dev"
+# npm run dev and deploy
+alias ntdcom="npm run dev && theme deploy --env=com_prod"
+alias ntdcomd="npm run dev && theme deploy --env=com_dev"
+alias ntdca="npm run dev && theme deploy --env=ca_prod"
+alias ntdcad="npm run dev && theme deploy --env=ca_dev"
 # deploy and watch
 alias tdwcom="theme deploy --env=com_prod && theme watch --env=com_prod"
 alias tdwcomd="theme deploy --env=com_dev && theme watch --env=com_dev"
@@ -50,6 +55,11 @@ alias tdocom="theme deploy --env=com_prod && theme open --env=com_prod"
 alias tdocomd="theme deploy --env=com_dev && theme open --env=com_dev"
 alias tdoca="theme deploy --env=ca_prod && theme open --env=ca_prod"
 alias tdocad="theme deploy --env=ca_dev && theme open --env=ca_dev"
+# npm run dev, deploy, and open
+alias ntdocom="npm run dev && theme deploy --env=com_prod && theme open --env=com_prod"
+alias ntdocomd="npm run dev && theme deploy --env=com_dev && theme open --env=com_dev"
+alias ntdoca="npm run dev && theme deploy --env=ca_prod && theme open --env=ca_prod"
+alias ntdocad="npm run dev && theme deploy --env=ca_dev && theme open --env=ca_dev"
 # deploy, open, and watch
 alias tdowcom="theme deploy --env=com_prod && theme open --env=com_prod && theme watch --env=com_prod"
 alias tdowcomd="theme deploy --env=com_dev && theme open --env=com_dev && theme watch --env=com_dev"
