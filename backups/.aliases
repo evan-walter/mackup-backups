@@ -19,7 +19,7 @@ alias gad="git add ."
 alias gc="git commit"
 alias gcm="git commit -m"
 alias gp="git push"
-alias gp-="git push && -"
+alias gph="git push && -"
 # other
 alias gd="git diff"
 
