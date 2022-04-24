@@ -8,6 +8,12 @@ alias mb="mackup backup --verbose && cd ~/dev/utils/mackup-backups"
 alias mr="mackup restore --verbose && cd ~/dev/utils/mackup-backups"
 # see npm
 
+## bashcrypto
+# encrypt with a password
+alias be="./bashcrypto -e -i"
+# decrypt with a password
+alias bd="./bashcrypto -d -i"
+
 ## git
 # git develop and master
 alias gdm="git push && git checkout master && git merge develop && git push && git checkout develop"
@@ -22,6 +28,8 @@ alias gp="git push"
 alias gph="git push && -"
 # other
 alias gd="git diff"
+alias gl="git log"
+alias glo="git log --oneline"
 
 ## npm
 alias n="npm"
@@ -32,39 +40,46 @@ alias nrw="npm run watch"
 
 ## theme kit
 # deploy
-alias tdcom="theme deploy --env=com_prod"
+alias tdcompc="theme deploy --env=com_prod_cust"
+alias tdcomp="theme deploy --env=com_prod"
 alias tdcomd="theme deploy --env=com_dev"
-alias tdca="theme deploy --env=ca_prod"
+alias tdcap="theme deploy --env=ca_prod"
 alias tdcad="theme deploy --env=ca_dev"
 # npm run dev and deploy
-alias ntdcom="npm run dev && theme deploy --env=com_prod"
+alias ntdcompc="npm run dev && theme deploy --env=com_prod_cust"
+alias ntdcomp="npm run dev && theme deploy --env=com_prod"
 alias ntdcomd="npm run dev && theme deploy --env=com_dev"
-alias ntdca="npm run dev && theme deploy --env=ca_prod"
+alias ntdcap="npm run dev && theme deploy --env=ca_prod"
 alias ntdcad="npm run dev && theme deploy --env=ca_dev"
 # deploy and watch
-alias tdwcom="theme deploy --env=com_prod && theme watch --env=com_prod"
+alias tdwcompc="theme deploy --env=com_prod_cust && theme watch --env=com_prod_cust"
+alias tdwcomp="theme deploy --env=com_prod && theme watch --env=com_prod"
 alias tdwcomd="theme deploy --env=com_dev && theme watch --env=com_dev"
-alias tdwca="theme deploy --env=ca_prod && theme watch --env=ca_prod"
+alias tdwcap="theme deploy --env=ca_prod && theme watch --env=ca_prod"
 alias tdwcad="theme deploy --env=ca_dev && theme watch --env=ca_dev"
 # open
-alias tocom="theme open --env=com_prod"
+alias tocompc="theme open --env=com_prod_cust"
+alias tocomp="theme open --env=com_prod"
 alias tocomd="theme open --env=com_dev"
-alias toca="theme open --env=ca_prod"
+alias tocap="theme open --env=ca_prod"
 alias tocad="theme open --env=ca_dev"
 # deploy and open
-alias tdocom="theme deploy --env=com_prod && theme open --env=com_prod"
+alias tdocompc="theme deploy --env=com_prod_cust && theme open --env=com_prod_cust"
+alias tdocomp="theme deploy --env=com_prod && theme open --env=com_prod"
 alias tdocomd="theme deploy --env=com_dev && theme open --env=com_dev"
-alias tdoca="theme deploy --env=ca_prod && theme open --env=ca_prod"
+alias tdocap="theme deploy --env=ca_prod && theme open --env=ca_prod"
 alias tdocad="theme deploy --env=ca_dev && theme open --env=ca_dev"
 # npm run dev, deploy, and open
-alias ntdocom="npm run dev && theme deploy --env=com_prod && theme open --env=com_prod"
+alias ntdocompc="npm run dev && theme deploy --env=com_prod_cust && theme open --env=com_prod_cust"
+alias ntdocomp="npm run dev && theme deploy --env=com_prod && theme open --env=com_prod"
 alias ntdocomd="npm run dev && theme deploy --env=com_dev && theme open --env=com_dev"
-alias ntdoca="npm run dev && theme deploy --env=ca_prod && theme open --env=ca_prod"
+alias ntdocap="npm run dev && theme deploy --env=ca_prod && theme open --env=ca_prod"
 alias ntdocad="npm run dev && theme deploy --env=ca_dev && theme open --env=ca_dev"
 # deploy, open, and watch
-alias tdowcom="theme deploy --env=com_prod && theme open --env=com_prod && theme watch --env=com_prod"
+alias tdowcompc="theme deploy --env=com_prod_cust && theme open --env=com_prod_cust && theme watch --env=com_prod_cust"
+alias tdowcomp="theme deploy --env=com_prod && theme open --env=com_prod && theme watch --env=com_prod"
 alias tdowcomd="theme deploy --env=com_dev && theme open --env=com_dev && theme watch --env=com_dev"
-alias tdowca="theme deploy --env=ca_prod && theme open --env=ca_prod && theme watch --env=ca_prod"
+alias tdowcap="theme deploy --env=ca_prod && theme open --env=ca_prod && theme watch --env=ca_prod"
 alias tdowcad="theme deploy --env=ca_dev && theme open --env=ca_dev && theme watch --env=ca_dev"
 
 # vscode-insiders
