@@ -24,6 +24,7 @@ alias ga="git add"
 alias gad="git add ."
 alias gc="git commit"
 alias gcm="git commit -m"
+alias gam="git add . && git commit -m"
 alias gp="git push"
 alias gph="git push && -"
 # other
