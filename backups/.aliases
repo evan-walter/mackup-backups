@@ -34,7 +34,9 @@ alias glo="git log --oneline"
 ## npm
 alias n="npm"
 alias ngo="npm -g outdated"
+alias ngi="npm -g i"
 alias no="npm outdated"
+alias ni="npm i"
 alias nrd="npm run dev"
 alias nrw="npm run watch"
 
