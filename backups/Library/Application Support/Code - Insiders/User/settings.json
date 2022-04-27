@@ -32,5 +32,8 @@
   },
   "window.newWindowDimensions": "maximized",
   "workbench.colorTheme": "Community Material Theme Ocean Customized",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "indentRainbow.includedLanguages": [
+
+  ]
 }
