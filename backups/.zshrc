@@ -99,16 +99,15 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
-# export EDITOR="/Applications/Visual\ Studio\ Code\ -\ Insiders.app/Contents/MacOS/Electron"
-export EDITOR=nano
-export VISUAL="$EDITOR"
-export EDITOR="/usr/local/bin/mate -w"
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-
 #### aliases
 for file in ~/.aliases; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file"
 done
+
+# export EDITOR="/Applications/Visual\ Studio\ Code\ -\ Insiders.app/Contents/MacOS/Electron"
+export EDITOR=nano
+export EDITOR="/usr/local/bin/mate -w"
+export VISUAL="$EDITOR"
+export PATH="$PATH:/opt/homebrew/opt/node@16/bin"
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
