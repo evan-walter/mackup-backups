@@ -9,6 +9,12 @@ alias mr="mackup restore --verbose && cd ~/dev/utils/mackup-backups"
 # see npm
 
 ## bashcrypto
+# go to the bashcrypto directory; decrypt swords to ~/Downloads; open file
+alias gobds="cd ~/dev/utils/bashcrypto && ./bashcrypto -d -i ~/Dropbox/docs/swords/swords.txt.enc -o ~/Downloads/swords.txt && open ~/Downloads/swords.txt"
+# remove swords
+alias rms="rm -r ~/Downloads/swords.txt"
+# encrypt swords
+alias ens="cd ~/dev/utils/bashcrypto && ./bashcrypto -e -i ~/Downloads/swords.txt -o ~/Dropbox/docs/swords/swords.txt.enc"
 # encrypt with a password
 alias be="./bashcrypto -e -i"
 # decrypt with a password
@@ -42,6 +48,12 @@ alias no="npm outdated"
 alias ni="npm i"
 alias nrd="npm run dev"
 alias nrw="npm run watch"
+
+## gatsby
+alias gyd="gatsby develop"
+alias gycd="gatsby clean && gatsby develop"
+alias gybs="gastby build && gatsby serve"
+alias gycbs="gatsby clean && gatsby build && gatsby serve"
 
 ## theme kit
 # deploy
