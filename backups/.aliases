@@ -119,6 +119,10 @@ alias tdowcap="theme deploy --env=ca_prod && theme open --env=ca_prod && theme w
 alias tdowcapc="theme deploy --env=ca_prod_cust && theme open --env=ca_prod_cust && theme watch --env=ca_prod_cust"
 alias tdowcad="theme deploy --env=ca_dev && theme open --env=ca_dev && theme watch --env=ca_dev"
 alias tdowcadc="theme deploy --env=ca_dev_cust && theme open --env=ca_dev_cust && theme watch --env=ca_dev_cust"
+# other theme kit
+alias tocompl="theme open --env=com_prod_live"
+alias tdcomplal="theme deploy --env=com_prod_live --allow-live"
+alias tdocomplal="theme deploy --env=com_prod_live --allow-live && theme open --env=com_prod_live"
 
 # vscode-insiders
 alias c="code-insiders"
