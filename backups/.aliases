@@ -11,8 +11,12 @@ alias mr="mackup restore --verbose && cd ~/dev/utils/mackup-backups"
 ## bashcrypto
 # go to the bashcrypto directory; decrypt swords to ~/Downloads; open file
 alias gobds="cd ~/dev/utils/bashcrypto && ./bashcrypto -d -i ~/Dropbox/docs/swords/swords.txt.enc -o ~/Downloads/swords.txt && open ~/Downloads/swords.txt"
+alias gobdsh="cd ~/dev/utils/bashcrypto && ./bashcrypto -d -i ~/Dropbox/docs/swords/swords.txt.enc -o ~/Downloads/swords.txt && open ~/Downloads/swords.txt && cd ~"
+alias gobda="cd ~/dev/utils/bashcrypto && ./bashcrypto -d -i ~/Dropbox/docs/swords/ac.txt.enc -o ~/Downloads/ac.txt && open ~/Downloads/ac.txt"
+alias gobdah="cd ~/dev/utils/bashcrypto && ./bashcrypto -d -i ~/Dropbox/docs/swords/ac.txt.enc -o ~/Downloads/ac.txt && open ~/Downloads/ac.txt && cd ~"
 # remove swords
 alias rms="rm -r ~/Downloads/swords.txt"
+alias rma="rm -r ~/Downloads/ac.txt"
 # encrypt swords
 alias ens="cd ~/dev/utils/bashcrypto && ./bashcrypto -e -i ~/Downloads/swords.txt -o ~/Dropbox/docs/swords/swords.txt.enc"
 # encrypt with a password
