@@ -35,8 +35,6 @@ alias gad="git add ."
 alias gc="git commit"
 alias gcm="git commit -m"
 alias gam="git add . && git commit -m"
-alias agp="&& git push"
-alias agph="&& git push && -"
 alias gp="git push"
 alias gph="git push && -" # gph = git push && [hyphen, or -]
 alias gch="git checkout"
