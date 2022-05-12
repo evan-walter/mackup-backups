@@ -128,10 +128,12 @@ alias tocompl="theme open --env=com_prod_live"
 alias tdcomplal="theme deploy --env=com_prod_live --allow-live"
 alias tdocomplal="theme deploy --env=com_prod_live --allow-live && theme open --env=com_prod_live"
 
-# vscode-insiders
+## vscode-insiders
 alias c="code-insiders"
 alias c.="code-insiders ."
 
+## misc
+# open gb-notes in vscode-insiders
 alias cgbn="cd ~/dev/jobs/gb/gb-notes && c. && -"
 
 ## zsh
