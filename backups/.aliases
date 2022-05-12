@@ -132,5 +132,7 @@ alias tdocomplal="theme deploy --env=com_prod_live --allow-live && theme open --
 alias c="code-insiders"
 alias c.="code-insiders ."
 
+alias cgbn="cd ~/dev/jobs/gb/gb-notes && c. && -"
+
 ## zsh
 alias l="ls -laF"
