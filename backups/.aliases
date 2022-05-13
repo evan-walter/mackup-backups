@@ -26,7 +26,7 @@ alias bd="./bashcrypto -d -i"
 
 ## git
 # git develop and master
-alias gdm="git push && git checkout master && git merge develop && git push && git checkout develop"
+alias gpdm="git push && git checkout master && git merge develop && git push && git checkout develop"
 # common
 alias g="git"
 alias gs="git status"
