@@ -132,9 +132,16 @@ alias tdocomplal="theme deploy --env=com_prod_live --allow-live && theme open --
 alias c="code-insiders"
 alias c.="code-insiders ."
 
-## misc
-# open gb-notes in vscode-insiders
-alias cgbn="cd ~/dev/jobs/gb/gb-notes && c. && -"
+### misc
+## gb folders in vscode-insiders
+# gb
+alias cdgb="cd ~/dev/jobs/gb/shopify-ghostbed"
+alias cgb="cd ~/dev/jobs/gb/shopify-ghostbed && c."
+alias cgbh="cd ~/dev/jobs/gb/shopify-ghostbed && c. && -"
+# gb notes
+alias cdgbn="cd ~/dev/jobs/gb/gb-notes"
+alias cgbn="cd ~/dev/jobs/gb/gb-notes && c."
+alias cgbnh="cd ~/dev/jobs/gb/gb-notes && c. && -"
 
 ## zsh
 alias l="ls -laF"
