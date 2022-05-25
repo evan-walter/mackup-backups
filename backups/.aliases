@@ -170,6 +170,8 @@ alias cgbh="cd ~/dev/jobs/gb/shopify-ghostbed && c. && -"
 alias cdgbn="cd ~/dev/jobs/gb/gb-notes"
 alias cgbn="cd ~/dev/jobs/gb/gb-notes && c."
 alias cgbnh="cd ~/dev/jobs/gb/gb-notes && c. && -"
+# speedtest cli
+alias sp="speedtest-cli"
 
 ## zsh
 alias l="ls -laF"
