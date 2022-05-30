@@ -35,5 +35,9 @@
   "window.zoomLevel": 1,
   "indentRainbow.includedLanguages": [
 
-  ]
+  ],
+  "python.pythonPath": "python3",
+  "code-runner.executorMap": {
+    "python": "python3"
+  }
 }

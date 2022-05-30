@@ -160,6 +160,9 @@ alias tdocomplal="theme deploy --env=com_prod_live --allow-live && theme open --
 alias c="code-insiders"
 alias c.="code-insiders ."
 
+## python
+alias py3="python3"
+
 ### misc
 ## gb folders in vscode-insiders
 # gb
